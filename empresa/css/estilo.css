@@ -1,0 +1,133 @@
+/************************************************\
+DEFINIÇÕES GLOBAIS
+\************************************************/
+*{
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+/************************************************\
+DEFINIÇÕES DE LAYOUT
+\************************************************/
+.cabecalho{
+	height: 60px;
+	background-color: #B22222;
+}
+
+.container{
+	width: 1200px;
+	margin: 0px auto;
+	padding-top: 15px;
+}
+
+.rodape{
+	margin-top: 80px;
+	position: relative;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	
+	background-color: #B22222;
+	
+	height: 60px;
+}
+
+/************************************************\
+DEFINIÇÕES DE TÍTULO
+\************************************************/
+.titulo{
+	color: #fff;
+	text-align: center;
+}
+
+.titulo-cabecalho{
+	font-size: 30px;
+}
+
+.titulo-rodape{
+	font-size: 20px;
+	
+}
+
+.titulo-principal{
+	font-size:25px;
+	font-weight: bold;
+	color: #DA0000;
+	border-bottom: 2px solid #B22222;
+	margin: 20px 0 30px;
+}
+
+/************************************************\
+DEFINIÇÕES DA TABELA
+\************************************************/
+
+.tabela{
+	width: 100%;
+	border-spacing: 5px;
+}
+
+.titulo-tabela{
+	font-weight: bold;
+}
+
+.campo{
+	height: 30px;
+	color: #900;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding-left: 2px;
+	width: 100%;
+}
+
+
+/************************************************\
+DEFINIÇÕES DO BOTÃO
+\************************************************/
+
+.botao{
+	background-color: #990000;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px 10px;
+	margin-left: 5px;
+}
+
+.botao:hover, .botao:focus, .botaonovo:hover,.botaonovo:focus,#botaobusca:hover,#botaobusca:focus{
+	background-color: #B22222;
+}
+
+/************************************************\
+DEFINIÇÕES DO BOTÃO
+\************************************************/
+.fundo{
+	background-color: #550000;
+}
+#botaobusca{
+	background-color: #990000;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px 10px;
+	margin-left: 5px;
+	text-decoration: none;
+	margin-left: 40%;
+		
+	margin-top: 10px;
+}
+.botaonovo{
+	position: absolute;
+	text-decoration: none;
+	background-color: #990000;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px 10px;
+	margin-top: 10px;
+	
+	text-decoration: none;
+	
+		
+	
+}
