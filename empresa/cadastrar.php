@@ -1,9 +1,5 @@
 <?php
-    $host = "localhost";
-    $user = "root";
-    $pass = "";
-    $banco = "sistemaempresa";
-    $conexao = mysqli_connect($host,$user,$pass,$banco) or die(mysql_error());
+    require(conexao.php);
 
     // ik8IFv9ijF
     // pbP4tV4dlW
